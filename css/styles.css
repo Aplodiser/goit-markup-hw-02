@@ -1,0 +1,230 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #212121;
+    --first-text-color: #757575;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --third-text-color: #FFFFFF;
+    --button-color: #FFFFFF;
+    --header-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-face-footer-color: #2F303A;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: var(--header-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ----------HEADER---------- */
+
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color);
+}
+
+.header-logo-accent {
+    color: var(--accent-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-tel,
+.header-meilto {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-text-color);
+    }
+
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+
+.header-meilto:hover,
+.header-meilto:focus {
+    color: var(--accent-color);
+}
+
+/* ----------FACE---------- */
+
+.face {
+    background-color: var(--background-face-footer-color);
+}
+
+.face-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+
+/* ----------ABOUT---------- */
+
+.about-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+}
+
+.about-after-title {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+/* ----------ABOUT-WORK---------- */
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+/* ----------ABOUT-COMPANY---------- */
+
+.about-company {
+    background-color: #F5F4FA;
+}
+
+.company-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+.member-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+/* ----------FOOTER---------- */
+
+.footer {
+    background-color: var(--background-face-footer-color);
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+
+.footer-logo-accent {
+    color: var(--accent-color);
+}
+
+.footer-https {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--third-text-color);
+}
+
+.footer-meilto {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-https:hover,
+.footer-https:focus {
+    color: var(--accent-color);
+}
+
+
+.footer-meilto:hover,
+.footer-meilto:focus {
+    color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+
