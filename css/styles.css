@@ -10,6 +10,19 @@
     --background-face-footer-color: #2F303A;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 body {
     font-family: "roboto", sans-serif;
     color: var(--header-text-color);
@@ -48,6 +61,11 @@ body {
 
 .header-link:hover,
 .header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-logo:hover,
+.header-logo:focus {
     color: var(--accent-color);
 }
 
@@ -97,11 +115,13 @@ body {
     letter-spacing: 0.06em;
     color: var(--button-color);
     cursor: pointer;
+    background-color: var(--accent-color);
 }
 
 .button:hover,
 .button:focus {
     color: var(--accent-color);
+    background-color: var(--main-title-color);
 }
 
 /* ----------ABOUT---------- */
@@ -212,11 +232,15 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--accent-color);
+}
+
 .footer-https:hover,
 .footer-https:focus {
     color: var(--accent-color);
 }
-
 
 .footer-meilto:hover,
 .footer-meilto:focus {
@@ -228,3 +252,41 @@ body {
     color: var(--accent-color);
 }
 
+
+/* ----------PORTFOLIO---------- */
+
+.button-gallery {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+    cursor: pointer;
+
+}
+
+.button-gallery:hover,
+.button-gallery:focus {
+    color: var(--button-color);
+    background-color: var(--accent-color);
+}
+
+.gallery-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+}
+
+.gallery-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
